@@ -3,7 +3,11 @@
 
 Welcome to our Smart Agriculture System GitHub repository! 🌱 This comprehensive project is designed to revolutionize agriculture by combining two vital components: Greenhouse Monitoring and Field Monitoring. Our solution provides farmers with a sophisticated yet user-friendly system for optimizing crop conditions in both controlled environments and remote fields. Explore each part of our project:
 
+![Screenshot 2023-10-23 194711](https://github.com/Shathira-Lakdilu/Smart-Agriculture-System/assets/127112210/4f741304-1b0a-4bc2-9040-34d85d5f5d5d)
+
 ## 1. Greenhouse Monitoring and Controlling 🏡
+
+![Screenshot 2023-10-23 201137](https://github.com/Shathira-Lakdilu/Smart-Agriculture-System/assets/127112210/3f374758-07dc-4e76-b29c-c724a8469fa3)
 
 Our Greenhouse Monitoring module focuses on creating an interconnected network of greenhouses using Wi-Fi technology. Here's what it offers:
 
@@ -17,6 +21,7 @@ Our Greenhouse Monitoring module focuses on creating an interconnected network o
     
 
 ## 2. Field Monitoring and Controlling 🚜
+
 
 The Field Monitoring module extends our system to remote fields, overcoming connectivity challenges. Here's what it includes:
 
@@ -53,3 +58,52 @@ Our automated greenhouse is a cutting-edge solution for precision agriculture. I
 -   **Humidity Control:** The exhaust fan contributes to humidity regulation.
 -   **Soil Moisture Management:** The solenoid water valve ensures optimal soil moisture levels.
 -   **Lighting Adjustment:** LED grow lights are dynamically controlled to achieve the desired light intensity.
+
+  ## MQTT Protocol: Simplifying IoT Communication 🌐📡
+
+MQTT, or Message Queuing Telemetry Transport, is a lightweight and efficient messaging protocol designed for reliable communication in the Internet of Things (IoT) landscape. It operates on the publish-subscribe model, making it ideal for scenarios where small, intermittent, or low-bandwidth connections are common.
+
+### Key Features of MQTT:
+
+-   **Publish-Subscribe Model:** Devices communicate via a broker, where publishers send messages without knowing who the subscribers are, and subscribers receive messages based on topics of interest.
+    
+-   **QoS Levels:** Offers three Quality of Service levels, ensuring reliable message delivery even in challenging network conditions.
+    
+-   **Retained Messages:** The broker can store the last message on a topic, making it available to new subscribers when they connect.
+    
+-   **Lightweight:** Designed for resource-constrained environments, MQTT minimizes bandwidth usage and processing overhead.
+    
+
+## Raspberry Pi MQTT Broker: Centralized IoT Communication Hub 🍓📡
+
+In our Smart Agriculture System, the Raspberry Pi serves as a powerful MQTT broker, acting as a centralized hub for communication between various components. Here's why the Raspberry Pi is an excellent choice for hosting an MQTT broker:
+
+### Raspberry Pi Benefits:
+
+-   **Low-Cost Solution:** Raspberry Pi offers a cost-effective yet robust solution for hosting an MQTT broker, making it accessible for a wide range of IoT projects.
+    
+-   **Wi-Fi Connectivity:** With built-in Wi-Fi capabilities, Raspberry Pi allows seamless communication with devices within the network, such as greenhouses and sensors.
+    
+-   **GPIO Pins for Sensor Integration:** Raspberry Pi's General Purpose Input/Output (GPIO) pins enable easy integration with sensors, making it versatile for gathering environmental data.
+    
+-   **Open-Source Software Support:** Various MQTT broker software, such as Mosquitto, can be easily installed on Raspberry Pi, ensuring flexibility and compatibility.
+
+## Node-RED Dashboard: Visualize, Interact, Innovate 🚀📊
+
+Welcome to the heart of our Smart Agriculture System's user experience – the Node-RED Dashboard. Designed for simplicity and functionality, the Node-RED Dashboard transforms complex IoT data into an interactive and visually engaging interface.
+
+![nodered](https://github.com/Shathira-Lakdilu/Smart-Agriculture-System/assets/127112210/c410bc3c-fcf8-4bb3-bfcd-40373b92534f)
+
+### Key Features:
+
+🔍 **Visual Flow Programming:** Node-RED Dashboard allows you to build intuitive workflows visually. Easily connect nodes, process MQTT data, and design a customized dashboard tailored to your agricultural needs.
+
+📈 **Real-Time Monitoring:** Witness real-time updates of environmental parameters such as temperature, humidity, and soil moisture. Stay informed about the health and conditions of your greenhouses and remote fields at a glance.
+
+🎛️ **Intuitive Control Widgets:** Take control effortlessly with interactive widgets. From adjusting lighting conditions to managing irrigation, the Node-RED Dashboard provides a user-friendly interface for seamless control of your Smart Agriculture System.
+
+🌐 **Customizable Dashboards:** Tailor dashboards to suit your preferences. Highlight essential information, rearrange widgets, and create a personalized view that aligns with your farming priorities.
+
+### Empowering Agriculture:
+
+Node-RED Dashboard acts as the bridge between the complexity of IoT data and the user's need for simplicity. Empower farmers with the tools to make informed decisions, all within a visually appealing and accessible interface.
