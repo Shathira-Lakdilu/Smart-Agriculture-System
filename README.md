@@ -109,31 +109,26 @@ Welcome to the heart of our Smart Agriculture System's user experience – the N
 Node-RED Dashboard acts as the bridge between the complexity of IoT data and the user's need for simplicity. Empower farmers with the tools to make informed decisions, all within a visually appealing and accessible interface.
 
 ## Hardware Components
-## Greenhouse Monitoring:
 
 ### Central Control Hub:
 
 1.  Raspberry Pi (or any other microcontroller)
-3.  MicroSD Card (for Raspberry Pi)
-4.  Power Supply for Raspberry Pi
+2.  MicroSD Card (for Raspberry Pi)
+3.  Power Supply for Raspberry Pi
 
 ### Environmental Sensors:
 
-5.  DHT11 Sensor (Humidity and Temperature)
-6.  Soil Moisture Sensor
-7.  BH1750 Ambient Light Sensor (Lux value)
+4.  DHT11 Sensor (Humidity and Temperature)
+5.  Soil Moisture Sensor
+6.  BH1750 Ambient Light Sensor (Lux value)
 
 ### Actuators:
 
-8.  Solenoid Water Valve (for irrigation)
-9.  LED Grow Lights
-10.  Exhaust Fan
+7.  Solenoid Water Valve (for irrigation)
+8.  LED Grow Lights
+9.  Exhaust Fan
 
 ### Communication:
 
-11.  LoRa Module (SX1278) for remote fields
+10.  LoRa Module (SX1278) for remote fields
 
-## Field Monitoring:
-
-1. Soil Moisture Sensors for Remote Fields:
-2. Solenoid Water Valve (for irrigation)
