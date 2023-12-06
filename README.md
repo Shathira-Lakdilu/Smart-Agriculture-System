@@ -27,3 +27,29 @@ The Field Monitoring module extends our system to remote fields, overcoming conn
 -   📡 **Integration with Raspberry Pi Hub:** Connect field sensors to the central Raspberry Pi hub, aggregating data for a holistic view of the agricultural landscape.
     
 -   🚀 **Precision Agriculture:** Empower farmers with data-driven insights to make informed decisions for optimizing crop yield and resource efficiency.
+
+  ## The key features
+Our automated greenhouse is a cutting-edge solution for precision agriculture. It incorporates a range of essential components to optimize crop growth and environmental conditions. The key features include:
+
+🌧️ **Environmental Monitoring:**
+
+-   DHT11 Sensor: Measures humidity and temperature.
+-   Soil Moisture Sensor: Monitors soil moisture levels.
+-   BH1750 Ambient Light Sensor: Measures lux value for precise light intensity control.
+
+🧠 **Control Hub:**
+
+-   ESP32 Microcontroller: Powers the greenhouse automation, collecting and processing data from the sensors.
+
+⚙️ **Parameter Control Modules:**
+
+-   Solenoid Valve: Manages irrigation to ensure optimal soil moisture.
+-   LED Grow Lights: Adjusts lighting conditions for different growth stages.
+-   Exhaust Fan: Regulates temperature and humidity levels by activating the exhaust system.
+
+🌡️ **Automated Regulation:** Our program facilitates the automatic regulation of the greenhouse environment:
+
+-   **Temperature Control:** The exhaust fan is activated to maintain the desired temperature.
+-   **Humidity Control:** The exhaust fan contributes to humidity regulation.
+-   **Soil Moisture Management:** The solenoid water valve ensures optimal soil moisture levels.
+-   **Lighting Adjustment:** LED grow lights are dynamically controlled to achieve the desired light intensity.
