@@ -132,3 +132,19 @@ Node-RED Dashboard acts as the bridge between the complexity of IoT data and the
 
 10.  LoRa Module (SX1278) for remote fields
 
+# PCB Design with Altium Designer
+
+![PCB](https://github.com/Shathira-Lakdilu/Smart-Agriculture-System/assets/127112210/31dab4ac-3f1e-4f27-9574-2d5e5e87d2e1)
+
+## Schematic diagram
+
+![Schematic](https://github.com/Shathira-Lakdilu/Smart-Agriculture-System/assets/127112210/3193cd8e-7ee9-4b7c-b6c3-b03517e5a791)
+
+## Top layer
+
+![toplayer](https://github.com/Shathira-Lakdilu/Smart-Agriculture-System/assets/127112210/f017930c-a578-468d-8991-1086b4b7a74f)
+
+## Bottom Layer
+
+![bottomlayer](https://github.com/Shathira-Lakdilu/Smart-Agriculture-System/assets/127112210/ee9cb39e-1dbd-4c57-9301-2027ddd12d72)
+
