@@ -108,6 +108,8 @@ Welcome to the heart of our Smart Agriculture System's user experience – the N
 
 Node-RED Dashboard acts as the bridge between the complexity of IoT data and the user's need for simplicity. Empower farmers with the tools to make informed decisions, all within a visually appealing and accessible interface.
 
+![Screenshot 2023-10-31 093852](https://github.com/Shathira-Lakdilu/Smart-Agriculture-System/assets/127112210/defd8778-ee80-4a1b-8b18-5f8bdf9f2aa8)
+
 # Hardware Components
 
 ### Central Control Hub:
